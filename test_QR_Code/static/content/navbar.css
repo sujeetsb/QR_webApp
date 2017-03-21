@@ -1,0 +1,61 @@
+.navbar {
+    margin-bottom: 0;
+    background-color: #809fff;
+    z-index: 9999;
+    border: 0;
+    font-size: 18px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 6px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #330000 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #660035 !important;
+    background-color:  #d2ff4d !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #660035 ;
+    color:  #ff3399 !important;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #cc0069;
+}
+
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+.jumbotron {
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+

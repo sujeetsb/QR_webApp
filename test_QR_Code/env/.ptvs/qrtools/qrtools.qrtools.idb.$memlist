@@ -1,0 +1,10 @@
+BOM_UTF8
+os
+time
+re
+hashlib
+zbar
+shutil
+QR
+Image
+subprocess

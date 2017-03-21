@@ -1,0 +1,8 @@
+os
+optparse
+default_factories
+colorama
+qrcode
+error_correction
+main
+sys

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sample Coupon</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.css" /> 
+		<link rel="stylesheet" href="css/cupon.css">
+		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>        
+    </head>
+    <body>
+    <section id="labels">
+								<div class="container" >
+									<div class="row">
+										<div class="col-sm-6">
+										<div class="dl">
+											<div class="brand">
+												<h2>
+													mango
+												</h2>
+											</div>
+											<div class="discount alizarin">
+												30%
+												<div class="type">
+													off
+												</div>
+											</div>
+											<div class="descr">
+												<strong>
+													Mei mucius gloriatur reprimique mollis*. 
+												</strong> 
+												Ad sonet perfecto antiopam mei. 
+											</div>
+											<div class="ends">
+												<small>
+													* Conditions and restrictions apply.
+												</small>
+											</div>
+											<div class="coupon midnight-blue">
+												<a data-toggle="modal" href="#myQrcode" class="open-code">Get Qr code</a>
+													<div id="myQrcode" class="modal fade" role="dialog">
+										  				<div class="modal-dialog">
+											  			<div class="modal-content">
+     											 <div class="modal-header">
+        											<button type="button" class="close" data-dismiss="modal">&times;</button>
+      											  </div>
+    											<div class="modal-body">
+													<p><img src="images/qr_code.png" class="img-responsive" height="200px" width="200px" ></p>
+													where you want this code:<br>
+													<button type="button" class="btn btn-success active" data-toggle="collapse" data-target="#myPhone">Mobile</button>
+														<div id="myPhone" class="collapse out">
+															<div class="panel panel-default">
+																<div class="panel-body">
+																	<div class="form-group">
+																	<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+																	</div>
+																	<button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Send</button>
+											</div>
+
+										</div>
+       				 					</div>   
+    											</div>
+    </body>
+</html>

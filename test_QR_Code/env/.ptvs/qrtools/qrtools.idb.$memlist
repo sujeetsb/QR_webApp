@@ -1,0 +1,11 @@
+BOM_UTF8
+os
+time
+QR
+hashlib
+shutil
+ImportError
+qtqr
+qrtools
+re
+subprocess
