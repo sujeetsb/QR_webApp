@@ -1,15 +1,16 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<title>QR code Generator</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/bootstrap.css"> 
-		<link rel="stylesheet" href="css/cupon.css">
-		<link rel="stylesheet" href="css/navbar.css">
-		<link rel="stylesheet" href="css/panel.css">
-		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
-        <script type="text/javascript" src="js/bootstrap.js"></script>
+		<link rel="stylesheet" href="{{ url_for('static', filename='content/bootstrap.css') }}"> 
+		<link rel="stylesheet" href="{{ url_for('static', filename='content/coupon.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='content/navbar.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='content/panel.css') }}">
+        
+		<script type="text/javascript" src="{{ url_for('static', filename='scripts/jquery-3.1.1.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='scripts/bootstrap.min.js') }}"></script>
 	</head>
 
 	<body>

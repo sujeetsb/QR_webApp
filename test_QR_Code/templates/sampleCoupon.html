@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Sample Coupon</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/bootstrap.css" /> 
-		<link rel="stylesheet" href="css/cupon.css">
-		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
-        <script type="text/javascript" src="js/bootstrap.js"></script>        
+        
+		<link rel="stylesheet" href="{{ url_for('static', filename='content/bootstrap.css') }}" /> 
+		<link rel="stylesheet" href="{{ url_for('static', filename='content/coupon.css') }}">
+		<script type="text/javascript" src="{{ url_for('static', filename = 'scripts/jquery-3.1.1.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename = 'scripts/bootstrap.min.js') }}"></script>        
     </head>
     <body>
     <section id="labels">
